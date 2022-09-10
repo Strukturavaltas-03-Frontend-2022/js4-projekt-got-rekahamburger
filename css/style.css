@@ -1,0 +1,37 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  
+  }
+
+.flex-container div {
+ 
+  line-height: 45px;
+    margin: 15px;
+    padding: 2px;
+    font-size: 12px;
+    
+  }
+  p{
+    text-align: center;
+  }
+  
+
+  html{
+    background-image:url('../assets/site/mapblue.jpg');
+  }
+
+  /*aside
+  data-visible: false;
+  
+*/
+
+aside {
+  background-color: black;
+  color: white;
+  float: right;
+  
+  width: 250px ;
+  height:1400px ;
+}
+

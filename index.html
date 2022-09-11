@@ -10,20 +10,27 @@
 </head>
 <body>
 
-    <aside>
+    <aside >
         <h3>Game of Thrones</h3>
+
+<h4 class="nev"></h4>
+<h5 class="leiras"></h5>
+<h5 class="cimer"></h5>
+
+
+
         <form action="json/got.json">
-            <label for="gsearch">search</label>
+            
             <input type="search" id="gsearch" name="gsearch">
-            <input type="submit">
+            <input type="submit" id="gsearch">
           </form>
     </aside>
 
     <div class="flex-container">
         <div class="egy">
-            <img src="assets/joffrey.png" alt="Joffrey"> <p>Joffrey Baratheon</p></div>
+            <img src="assets/joffrey.png" alt="Joffrey"> <p class="pp" onclick="got()">Joffrey Baratheon</p></div>
         <div class="kettő">
-             <img src="assets/myrcella.png" alt="myrcella">  <p>Myrcella Baratheon</p></div>
+             <img src="assets/myrcella.png" alt="myrcella">  <p class="pp">Myrcella Baratheon</p></div>
            
         <div class="három">
             <img src="assets/renly.png" alt="Renly">  <p>Renly Baratheon</p></div>
@@ -159,7 +166,7 @@
 </div>
     
 
-
-    
+<script type="module" src="js/main.js"></script>
+  <script type="module" src="json/got.json"></script>  
 </body>
 </html>

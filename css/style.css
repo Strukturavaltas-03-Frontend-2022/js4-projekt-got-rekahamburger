@@ -33,5 +33,15 @@ aside {
   
   width: 250px ;
   height:1400px ;
+  
+}
+h3{
+  text-align: center;
+  text-decoration: wavy;
 }
 
+#gsearch {
+  position: relative;
+  top: 1200px;
+  right:-20px;
+}
